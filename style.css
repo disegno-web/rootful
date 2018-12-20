@@ -1,0 +1,150 @@
+/*!
+Theme Name: rootful
+Author: disegno
+Author URI: https://www.disegno.cc
+Description: Base theme for development
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Text Domain: rootful
+*/
+
+/**
+*
+* TABLE OF CONTENT
+# Basic Layout
+# Typography
+# Elements
+# Forms
+# Navigations
+# Modules
+# Icons
+# Accessibility
+# Alignments
+# Clearings
+# Header
+# Widgets
+# Content
+# Posts and Pages
+# Asides
+# Comments
+# Footer
+# Media
+# captions
+# galleries
+# Media Queriess
+# Mobile
+# Tablets
+# Computers
+# Print
+*
+*/
+
+/*=============================================
+=            BASIC LAYOUT            =
+=============================================*/
+
+.main-wrapper.boxed {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header-top {
+	padding: 12px 0px;
+}
+
+.container {
+    width: 100%;
+    padding: 0px 15px;
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
+}
+
+.full-width .container {
+	max-width: 98%;
+}
+
+
+/*=============================================
+=            COLUMNS            =
+=============================================*/
+
+.one-half {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+.one-third {
+	width: 33.333%;
+	float: left;
+	display: inline-block;
+}
+
+.two-thirds {
+	width: 66.667%;
+	float: left;
+	display: inline-block;
+}
+
+.row {
+    width: 100%;
+}
+
+
+/*=============================================
+=            TYPOGRAPHY            =
+=============================================*/
+
+.right-align {
+	text-align: right;
+}
+
+
+/*=============================================
+=            HEADER            =
+=============================================*/
+
+.logo-img {
+    max-height: 80px;
+}
+
+.header-bottom {
+    padding: 20px 0px;
+	background: #fff;
+}
+
+nav ul {
+    padding: 0px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.header-bottom .container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+	width: 30%;
+}
+
+.navbar {
+	padding: 0px !important;
+}
+
+a:hover, a:focus {
+	text-decoration: none !important;
+}
+
+.page-title {
+
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
